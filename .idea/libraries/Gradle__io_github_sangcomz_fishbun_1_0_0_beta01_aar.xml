@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.sangcomz:fishbun:1.0.0-beta01@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2815ebc89b6978f43aca2777225e23bb/transformed/fishbun-1.0.0-beta01/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2815ebc89b6978f43aca2777225e23bb/transformed/fishbun-1.0.0-beta01/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2815ebc89b6978f43aca2777225e23bb/transformed/fishbun-1.0.0-beta01/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/924a7b75e6347ced1b779cace648b751/transformed/fishbun-1.0.0-beta01/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/924a7b75e6347ced1b779cace648b751/transformed/fishbun-1.0.0-beta01/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/924a7b75e6347ced1b779cace648b751/transformed/fishbun-1.0.0-beta01/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9d6866f83c0fdfef173b0e3f213b5e8d/transformed/fishbun-1.0.0-beta01/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9d6866f83c0fdfef173b0e3f213b5e8d/transformed/fishbun-1.0.0-beta01/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9d6866f83c0fdfef173b0e3f213b5e8d/transformed/fishbun-1.0.0-beta01/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.sangcomz/fishbun/1.0.0-beta01/441e6fe7745cc10c407340ec80eebb2645f7408/fishbun-1.0.0-beta01-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.sangcomz/fishbun/1.0.0-beta01/3d1d52161a7cfa6be32e66a0aa3dcbf12d11754e/fishbun-1.0.0-beta01-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

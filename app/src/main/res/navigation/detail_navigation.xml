@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detail_navigation"
+    app:startDestination="@id/tripDetailsFragment">
+
+    <fragment
+        android:id="@+id/guideDetailsFragment"
+        android:name="com.caravan.caravan.ui.fragment.details.GuideDetailsFragment"
+        android:label="fragment_guide_details"
+        tools:layout="@layout/fragment_guide_details">
+        <action
+            android:id="@+id/action_guideDetailsFragment_to_guideTrips"
+            app:destination="@id/guideTrips" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/tripDetailsFragment"
+        android:name="com.caravan.caravan.ui.fragment.details.TripDetailsFragment"
+        android:label="fragment_trip_details"
+        tools:layout="@layout/fragment_trip_details">
+        <action
+            android:id="@+id/action_tripDetailsFragment_to_guideDetailsFragment"
+            app:destination="@id/guideDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/guideTrips"
+        android:name="com.caravan.caravan.ui.fragment.details.GuideTrips"
+        android:label="fragment_guide_trips"
+        tools:layout="@layout/fragment_guide_trips" />
+</navigation>

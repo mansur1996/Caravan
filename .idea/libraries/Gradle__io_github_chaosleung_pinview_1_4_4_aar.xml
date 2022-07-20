@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.chaosleung:pinview:1.4.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/91d8d75e20539dcb71df69888fc73064/transformed/pinview-1.4.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/91d8d75e20539dcb71df69888fc73064/transformed/pinview-1.4.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/91d8d75e20539dcb71df69888fc73064/transformed/pinview-1.4.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/434e58e5a4f8e281da93a6a8d5c73a12/transformed/pinview-1.4.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/434e58e5a4f8e281da93a6a8d5c73a12/transformed/pinview-1.4.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/434e58e5a4f8e281da93a6a8d5c73a12/transformed/pinview-1.4.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/44ab698dd9b364a64061acdb12914f5b/transformed/pinview-1.4.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/44ab698dd9b364a64061acdb12914f5b/transformed/pinview-1.4.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/44ab698dd9b364a64061acdb12914f5b/transformed/pinview-1.4.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.chaosleung/pinview/1.4.4/87f73ac2bed8b01c2d4876b4fa5398811c5941d0/pinview-1.4.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.chaosleung/pinview/1.4.4/93d8c4cd5d46cf105277f74931acd641d325dc3/pinview-1.4.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

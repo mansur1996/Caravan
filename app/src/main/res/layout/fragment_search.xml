@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".ui.fragment.main.SearchFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/etSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_background"
+                android:hint="@string/search_some_places"
+                android:inputType="text"
+                android:maxLines="1"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="8dp"
+                android:textCursorDrawable="@drawable/cursor"
+                android:imeOptions="actionSearch"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="14dp"
+                android:src="@drawable/loupe" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/ivFilter"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="13dp"
+            android:layout_marginEnd="13dp"
+            android:background="@drawable/ripple"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="9dp"
+            android:src="@drawable/ic_burger" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/myVIew"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="8dp"
+            android:elevation="10dp"
+            app:cardCornerRadius="50dp">
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/searchFragmentTabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_margin="2dp"
+                app:tabBackground="@drawable/tab_selector"
+                app:tabIndicator="@null"
+                app:tabMode="fixed"
+                app:tabRippleColor="@null"
+                app:tabSelectedTextColor="@color/main_color" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/searchFragmentViewPager"
+            android:orientation="horizontal"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

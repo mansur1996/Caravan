@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-datatransport:18.1.4@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b7f87067296ed7abcbdc19c798beee61/transformed/firebase-datatransport-18.1.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fc8da24589c63704b40c97628cc0120c/transformed/firebase-datatransport-18.1.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fc8da24589c63704b40c97628cc0120c/transformed/firebase-datatransport-18.1.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/fc8da24589c63704b40c97628cc0120c/transformed/firebase-datatransport-18.1.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6a8bf30a9e9532b62e7a4cf437874b1b/transformed/firebase-datatransport-18.1.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6a8bf30a9e9532b62e7a4cf437874b1b/transformed/firebase-datatransport-18.1.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6a8bf30a9e9532b62e7a4cf437874b1b/transformed/firebase-datatransport-18.1.4/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-datatransport/18.1.4/f28b88a846ae1c071d688b30cf1ecd6a537d91cb/firebase-datatransport-18.1.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-datatransport/18.1.4/a53b2d7ea3b3a2f3f08d773495a5b35d2e045604/firebase-datatransport-18.1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

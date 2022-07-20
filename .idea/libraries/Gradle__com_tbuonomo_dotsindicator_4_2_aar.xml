@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Gradle: com.tbuonomo:dotsindicator:4.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/443c274df9405f25e15a04ef067762ea/transformed/dotsindicator-4.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/443c274df9405f25e15a04ef067762ea/transformed/dotsindicator-4.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/443c274df9405f25e15a04ef067762ea/transformed/dotsindicator-4.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/17527ac1e5cae9492aefa60d2614d50c/transformed/dotsindicator-4.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/17527ac1e5cae9492aefa60d2614d50c/transformed/dotsindicator-4.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/17527ac1e5cae9492aefa60d2614d50c/transformed/dotsindicator-4.2/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e33e83c547c40ace65fd7de9b0dc4f8c/transformed/dotsindicator-4.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e33e83c547c40ace65fd7de9b0dc4f8c/transformed/dotsindicator-4.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e33e83c547c40ace65fd7de9b0dc4f8c/transformed/dotsindicator-4.2/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tbuonomo/dotsindicator/4.2/a52ad04c8d5a78ba86bd327191322c215b10272f/dotsindicator-4.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tbuonomo/dotsindicator/4.2/51e093668d4289e5ec4f2a2b0f43825cfb6e9629/dotsindicator-4.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

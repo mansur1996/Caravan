@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.stfalcon-studio:StfalconImageViewer:v1.0.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cc4b197056dec5a33f7351d3ef4559ca/transformed/StfalconImageViewer-v1.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cc4b197056dec5a33f7351d3ef4559ca/transformed/StfalconImageViewer-v1.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/cc4b197056dec5a33f7351d3ef4559ca/transformed/StfalconImageViewer-v1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cfc93802b189f4dbe31dcae0edfe3c91/transformed/StfalconImageViewer-v1.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/cfc93802b189f4dbe31dcae0edfe3c91/transformed/StfalconImageViewer-v1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cfc93802b189f4dbe31dcae0edfe3c91/transformed/StfalconImageViewer-v1.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.stfalcon-studio/StfalconImageViewer/v1.0.1/4acb5386d722d3d644f36031af9d370581d8ad36/StfalconImageViewer-v1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

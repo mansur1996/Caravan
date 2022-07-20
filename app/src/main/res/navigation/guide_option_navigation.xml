@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/guide_option_navigation"
+    app:startDestination="@id/turistGuideOptionFragment">
+
+    <fragment
+        android:id="@+id/createTrip1Fragment"
+        android:name="com.caravan.caravan.ui.fragment.guideOption.CreateTrip1Fragment"
+        android:label="fragment_create_trip1"
+        tools:layout="@layout/fragment_create_trip1" >
+        <action
+            android:id="@+id/action_createTrip1Fragment_to_createTrip2Fragment"
+            app:destination="@id/createTrip2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createTrip2Fragment"
+        android:name="com.caravan.caravan.ui.fragment.guideOption.CreateTrip2Fragment"
+        android:label="fragment_create_trip2"
+        tools:layout="@layout/fragment_create_trip2" >
+        <action
+            android:id="@+id/action_createTrip2Fragment_to_uploadImageFragment"
+            app:destination="@id/uploadImageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editGuideAccountFragment"
+        android:name="com.caravan.caravan.ui.fragment.guideOption.EditGuideAccountFragment"
+        android:label="fragment_edit_guide_account"
+        tools:layout="@layout/fragment_edit_guide_account" />
+    <fragment
+        android:id="@+id/feedbackListFragment"
+        android:name="com.caravan.caravan.ui.fragment.guideOption.FeedbackListFragment"
+        android:label="fragment_feedback_list"
+        tools:layout="@layout/fragment_feedback_list" >
+        <action
+            android:id="@+id/action_feedbackListFragment_to_feedbackRespondFragment"
+            app:destination="@id/feedbackRespondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/feedbackRespondFragment"
+        android:name="com.caravan.caravan.ui.fragment.guideOption.FeedbackRespondFragment"
+        android:label="fragment_feedback_respond"
+        tools:layout="@layout/fragment_feedback_respond" />
+    <fragment
+        android:id="@+id/guideGuideOptionFragment"
+        android:name="com.caravan.caravan.ui.fragment.guideOption.GuideGuideOptionFragment"
+        android:label="fragment_guide_guide_option"
+        tools:layout="@layout/fragment_guide_guide_option" >
+        <action
+            android:id="@+id/action_guideGuideOptionFragment_to_editGuideAccountFragment"
+            app:destination="@id/editGuideAccountFragment" />
+        <action
+            android:id="@+id/action_guideGuideOptionFragment_to_feedbackListFragment"
+            app:destination="@id/feedbackListFragment" />
+        <action
+            android:id="@+id/action_guideGuideOptionFragment_to_tripListFragment"
+            app:destination="@id/tripListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tripListFragment"
+        android:name="com.caravan.caravan.ui.fragment.guideOption.TripListFragment"
+        android:label="fragment_trip_list"
+        tools:layout="@layout/fragment_trip_list" />
+    <fragment
+        android:id="@+id/turistGuideOptionFragment"
+        android:name="com.caravan.caravan.ui.fragment.guideOption.TuristGuideOptionFragment"
+        android:label="fragment_turist_guide_option"
+        tools:layout="@layout/fragment_turist_guide_option" >
+        <action
+            android:id="@+id/action_turistGuideOptionFragment_to_upgradeGuide1Fragment"
+            app:destination="@id/upgradeGuide1Fragment" />
+        <action
+            android:id="@+id/action_turistGuideOptionFragment_to_guideGuideOptionFragment"
+            app:destination="@id/guideGuideOptionFragment"
+            app:popUpTo="@id/turistGuideOptionFragment"
+            app:popUpToInclusive="true"
+            />
+        <action
+            android:id="@+id/action_turistGuideOptionFragment_to_createTrip1Fragment"
+            app:destination="@id/createTrip1Fragment"
+            app:popUpTo="@id/turistGuideOptionFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/upgradeGuide1Fragment"
+        android:name="com.caravan.caravan.ui.fragment.guideOption.UpgradeGuide1Fragment"
+        android:label="fragment_upgrade_guide1"
+        tools:layout="@layout/fragment_upgrade_guide1" >
+        <action
+            android:id="@+id/action_upgradeGuide1Fragment_to_upgradeGuide2Fragment"
+            app:destination="@id/upgradeGuide2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/upgradeGuide2Fragment"
+        android:name="com.caravan.caravan.ui.fragment.guideOption.UpgradeGuide2Fragment"
+        android:label="fragment_upgrade_guide2"
+        tools:layout="@layout/fragment_upgrade_guide2" >
+        <argument
+            android:name="secondNumber"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_upgradeGuide2Fragment_to_guideGuideOptionFragment"
+            app:destination="@id/guideGuideOptionFragment"
+            app:popUpTo="@id/upgradeGuide2Fragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/uploadImageFragment"
+        android:name="com.caravan.caravan.ui.fragment.guideOption.UploadImageFragment"
+        android:label="fragment_upload_image"
+        tools:layout="@layout/fragment_upload_image" />
+</navigation>
